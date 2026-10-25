@@ -1,0 +1,12 @@
+{
+  "source": "Natural Earth",
+  "dataset": "1:110m land polygons",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson",
+  "source_page": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "retrieved_on": "2026-10-25",
+  "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+  "bytes": 138160,
+  "processing": "Unmodified upstream GeoJSON; visual introductory globe only, not campus simulation geometry"
+}

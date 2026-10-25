@@ -1,0 +1,28 @@
+.source-sections{display:flex;gap:0;border-bottom:2px solid #a8b196;margin-bottom:24px}
+.source-sections>button{flex:1;font:500 17px/1.2 'Pixelify Sans',monospace;color:#64755d;border-bottom:3px solid transparent;margin-bottom:-2px;padding:10px 6px}
+.source-sections>button[aria-pressed=true]{color:#274b35;border-bottom-color:#527449;background:#e6e5cf}
+.source-overview{margin:22px 0;display:grid;gap:16px}
+.source-overview>div{display:grid;grid-template-columns:105px 1fr;gap:14px}
+.source-overview dt{font-size:12px;font-weight:650;color:#435b40}
+.source-overview dd{margin:0;font-size:12px;line-height:1.6;color:#5d6b59}
+.evidence-entry{padding:16px 0;border-bottom:1px solid #c8cbb2}
+.evidence-entry>summary{align-items:flex-start;gap:12px}
+.evidence-entry>summary:before{margin-top:17px}
+.evidence-entry>summary>span{display:flex;flex-direction:column;gap:5px}
+.evidence-entry summary small{color:#718365;font-size:10px;text-transform:uppercase;letter-spacing:.08em}
+.evidence-entry summary strong{font:500 20px/1.15 'Pixelify Sans',monospace}
+.evidence-entry summary em{font-size:10px;font-style:normal;color:#6a755e}
+.evidence-entry>p{font-size:12px;margin-top:15px;line-height:1.7}
+.evidence-entry dl{display:grid;gap:12px;margin:16px 0}
+.evidence-entry dl>div{display:grid;grid-template-columns:58px 1fr;gap:10px;font-size:11px;line-height:1.6}
+.evidence-entry dt{font-weight:650;color:#607154}.evidence-entry dd{margin:0;color:#596951}
+.evidence-links{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.evidence-links a,.method-copy a{text-decoration:underline;text-underline-offset:3px;color:#3d6548;font-size:12px}
+.evidence-reviewed{font-size:10px;color:#7c866b;margin-top:20px}
+.advanced-options>.advanced-group-label{display:block;color:#b6c69b;font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:11px 14px 3px;border-top:1px solid #526a45;margin-top:6px}
+.advanced-options>.advanced-group-label:first-child{border-top:0;margin-top:0;padding-top:6px}
+.advanced-options{max-height:calc(100svh - 230px);overflow-y:auto}
+.pixel-loading{animation:pixel-status-turn 1.5s steps(8) infinite}
+@keyframes pixel-status-turn{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.pixel-loading{animation:none}}
+@media(max-width:700px){.source-overview>div{grid-template-columns:88px 1fr;gap:10px}.advanced-options{max-height:calc(100svh - 260px)}}

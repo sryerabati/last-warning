@@ -1,0 +1,206 @@
+{
+  "purpose": "Research-only bounded public geometry feasibility snapshot; not an application map or validated routing graph",
+  "retrieved_at_utc": "2026-10-25T01:38:04.312116+00:00",
+  "source_endpoint": "https://overpass-api.de/api/interpreter",
+  "source_query_file": "query.overpassql",
+  "source_osm_timestamp": "2026-10-25T01:37:01Z",
+  "source_generator": "Overpass API 0.7.62.11 87bfad18",
+  "source_http_status": 200,
+  "source_response_bytes": 1995571,
+  "source_response_sha256": "324829c4331b08738152ea9febf8f73cd7ba543c0abd489d3ebc39b2ac4ba340",
+  "geojson_bytes": 1225096,
+  "geojson_sha256": "78426413dbe0c77c1c034764d67cd11e5e9347c3acef64c21de9fc7955e8385f",
+  "selection_bbox_west_south_east_north": [
+    -83.0178,
+    39.9965,
+    -83.007,
+    40.0025
+  ],
+  "actual_feature_bbox_west_south_east_north": [
+    -83.0207652,
+    39.9953242,
+    -82.9958359,
+    40.0038347
+  ],
+  "selected_bbox_approx_dimensions_metres": {
+    "east_west": 921.0,
+    "north_south": 667.9
+  },
+  "coordinates": "GeoJSON longitude, latitude in WGS84 / OGC:CRS84; no screen coordinates or metre projection applied",
+  "geometry_policy": "Whole selected ways retained; not spatially clipped. Multipolygon members stitched and holes assigned; unresolved relations omitted and recorded. OSM node IDs retained for topology research.",
+  "privacy_filter": "Whitelist of public map geometry and access tags only. No addresses, contact details, usernames, contributor IDs, person records, route history, or security features collected in the saved artifact. Raw response not persisted.",
+  "attribution": "© OpenStreetMap contributors",
+  "attribution_url": "https://www.openstreetmap.org/copyright",
+  "license": "Open Database License 1.0 (ODbL)",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "limitations": [
+    "Map tagging is incomplete; absence of a tag is not permission or proof of accessibility.",
+    "This is geographic data, not a complete routable network or safe-route recommendation.",
+    "Not campus occupancy, official operating conditions, or an emergency response model."
+  ],
+  "stats": {
+    "element_count": 2496,
+    "feature_count": 2496,
+    "geometries": {
+      "Point": 311,
+      "LineString": 1240,
+      "Polygon": 945
+    },
+    "source_element_types": {
+      "node": 311,
+      "way": 2179,
+      "relation": 6
+    },
+    "highway_way_count": 1369,
+    "highway_types": {
+      "residential": 7,
+      "footway": 946,
+      "unclassified": 40,
+      "pedestrian": 144,
+      "service": 108,
+      "living_street": 3,
+      "steps": 100,
+      "primary": 17,
+      "tertiary": 2,
+      "cycleway": 1,
+      "construction": 1
+    },
+    "building_feature_count": 117,
+    "building_types": {
+      "university": 54,
+      "parking": 6,
+      "dormitory": 3,
+      "yes": 17,
+      "service": 4,
+      "bridge": 1,
+      "roof": 2,
+      "commercial": 13,
+      "industrial": 1,
+      "house": 5,
+      "apartments": 5,
+      "office": 1,
+      "garage": 2,
+      "construction": 3
+    },
+    "highway_tag_coverage": {
+      "access": 14,
+      "foot": 16,
+      "bicycle": 114,
+      "motor_vehicle": 9,
+      "motorcar": 0,
+      "vehicle": 0,
+      "oneway": 51,
+      "surface": 702,
+      "sidewalk": 20,
+      "wheelchair": 2,
+      "incline": 42,
+      "bridge": 4,
+      "tunnel": 6,
+      "layer": 23,
+      "maxspeed": 45,
+      "lanes": 56,
+      "crossing": 103
+    },
+    "building_tag_coverage": {
+      "name": 80,
+      "building:levels": 56,
+      "height": 8,
+      "wheelchair": 3,
+      "access": 5
+    },
+    "point_types": {
+      "crossing": 94,
+      "yes": 194,
+      "bus_stop": 12,
+      "main": 9,
+      "service": 2
+    },
+    "restricted_access_features": [
+      {
+        "id": "way/377919506",
+        "name": "Neil Avenue Mall",
+        "highway": "pedestrian",
+        "access": "private"
+      },
+      {
+        "id": "way/469313418",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/537538862",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/729838941",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/773649941",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1220432258",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1267822951",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1267822952",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1339613940",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1339613959",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1339613960",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1339613964",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1339613965",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      },
+      {
+        "id": "way/1492965137",
+        "name": null,
+        "highway": "service",
+        "access": "private"
+      }
+    ],
+    "assembly_issues": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "projectName": "Last Warning",
+  "teamName": "",
+  "repositoryUrl": "",
+  "eventCredit": "Built at HackOHI/O 2026",
+  "baseline": 54,
+  "alternative": 193,
+  "population": 300,
+  "baselineLabel": "Generic advisory",
+  "alternativeLabel": "Actionable warning",
+  "comparisonId": "b5203b07-3099-4df4-b33b-63ba043757f1"
+}

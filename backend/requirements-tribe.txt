@@ -1,0 +1,11 @@
+# Separate GPU environment only. Ordinary app dependencies are in pyproject.toml + uv.lock.
+# Use this as a constraints file while installing the pinned official checkout in
+# editable mode (docs/tribe-integration.md). Do not install it into the app venv.
+numpy==2.2.6
+torch>=2.5.1,<2.7
+torchvision>=0.20,<0.22
+huggingface_hub>=0.34,<1
+# The model's official feature-extractor dependency uses the pre-v5 Transformers API.
+transformers>=4.51,<5
+sentencepiece>=0.2,<1
+protobuf>=5,<7

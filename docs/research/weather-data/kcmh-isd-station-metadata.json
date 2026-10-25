@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-25T01:42:03.411864+00:00",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/noaa/isd-history.csv",
+  "source_sha256": "1994747ab4af1b97e63adb434b4d0d022f2daee76f0c144ea9ab46be2d906604",
+  "source_bytes": 2914601,
+  "selection": "WBAN = 14821 OR ICAO = KCMH",
+  "stations": [
+    {
+      "USAF": "724280",
+      "WBAN": "14821",
+      "STATION NAME": "PORT COLUMBUS INTERNATIONAL AIRPORT",
+      "CTRY": "US",
+      "STATE": "OH",
+      "ICAO": "KCMH",
+      "LAT": "+39.991",
+      "LON": "-082.877",
+      "ELEV(M)": "+0246.8",
+      "BEGIN": "19450401",
+      "END": "20250827"
+    },
+    {
+      "USAF": "999999",
+      "WBAN": "14821",
+      "STATION NAME": "COLUMBUS MUNICIPAL ARPT",
+      "CTRY": "US",
+      "STATE": "OH",
+      "ICAO": "KCMH",
+      "LAT": "+39.991",
+      "LON": "-082.881",
+      "ELEV(M)": "+0248.7",
+      "BEGIN": "19480101",
+      "END": "19721231"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": "campus-shuttle/1",
+  "name": "Campus shuttle \u00b7 CC corridor",
+  "source": "https://gissvc.osu.edu/arcgis/rest/services/Apps/Campusmap_Transportation/MapServer/1",
+  "retrieved": "2026-10-25",
+  "source_last_edited": "2026-10-19",
+  "source_sha256": "d4257ad998d9d8f55151800eed829b7fc371943200286f421603a843db0812e5",
+  "service_scope": "Bounded educational circuit connecting actual CC stops; not the full or current official CABS route. Paths use the pinned directed road graph.",
+  "stops": [
+    {
+      "id": "osu-stop-173",
+      "name": "Fontana Lab",
+      "lonlat": [
+        -83.0132008361503,
+        40.00384712036463
+      ]
+    },
+    {
+      "id": "osu-stop-3046",
+      "name": "15th & High St",
+      "lonlat": [
+        -83.00826078929883,
+        40.00044396777465
+      ]
+    },
+    {
+      "id": "osu-stop-4668",
+      "name": "12th Ave (WB) Temporary Stop during College Rd Construction",
+      "lonlat": [
+        -83.00870722055397,
+        39.99694567675947
+      ]
+    },
+    {
+      "id": "osu-stop-2254",
+      "name": "Siebert Hall",
+      "lonlat": [
+        -83.01207559025575,
+        39.99551461922997
+      ]
+    },
+    {
+      "id": "osu-stop-35",
+      "name": "Mack Hall",
+      "lonlat": [
+        -83.014623649881,
+        39.99593141409112
+      ]
+    },
+    {
+      "id": "osu-stop-172",
+      "name": "Mason Hall",
+      "lonlat": [
+        -83.01557184142635,
+        40.00412969930298
+      ]
+    }
+  ]
+}

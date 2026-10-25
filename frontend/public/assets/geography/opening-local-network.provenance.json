@@ -1,0 +1,62 @@
+{
+  "schema": "last-warning-opening-local-network/1",
+  "asset": "opening-local-network.geojson",
+  "asset_sha256": "71a49df4ca7d12d5074427d6d81ae5970ce70e19fb9c5867fbe96a218a0cd092",
+  "asset_bytes": 1648807,
+  "gzip_bytes": 139538,
+  "feature_count": 7509,
+  "layer_counts": {
+    "tree": 2843,
+    "road": 2252,
+    "path": 2414
+  },
+  "class_counts": {
+    "tree": 2843,
+    "residential": 237,
+    "service": 2015,
+    "footway": 2374,
+    "cycleway": 29,
+    "path": 7,
+    "pedestrian": 4
+  },
+  "retrieved_at_utc": "2026-10-25T05:44:05.266355+00:00",
+  "source": {
+    "endpoint": "https://overpass.private.coffee/api/interpreter",
+    "query": "[out:json][timeout:45][maxsize:33554432];(way[\"highway\"~\"^(residential|service|footway|path|pedestrian|cycleway)$\"](39.986,-83.030,40.014,-82.990);node[\"natural\"=\"tree\"](39.986,-83.030,40.014,-82.990););out tags geom;",
+    "timestamp_osm_base": "2026-07-28T02:16:18Z",
+    "response_sha256": "5a04acb48ff20cd508bd6bd1b7d994d0014d22db766f0af13482b29bb7846bfd",
+    "response_bytes": 5005622,
+    "source_element_counts": {
+      "tree_nodes": 6130,
+      "highway_ways": 7316
+    },
+    "license": "ODbL 1.0",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "transforms": {
+    "selection_bbox_west_south_east_north": [
+      -83.03,
+      39.986,
+      -82.99,
+      40.014
+    ],
+    "exclude_campus_bbox_west_south_east_north": [
+      -83.0183,
+      39.994,
+      -83.0003,
+      40.0045
+    ],
+    "geometry_policy": "Lines clipped to outer bounds and split around the campus rectangle. No bridged gaps. Actual OSM tree nodes only. Highway area=yes polygons omitted rather than misread as centerlines.",
+    "simplification": "Douglas-Peucker tolerance 0.000004 degrees before clipping; coordinates rounded to six decimals.",
+    "feature_ids": "Stable source node/way ID; clipped way pieces use /context/<part index>.",
+    "omitted_counts": {
+      "tree_inside_campus_or_outside_outer": 3286,
+      "tree_rounded_onto_campus_boundary": 1,
+      "way_inside_campus_or_outside_outer": 2357,
+      "highway_areas": 304
+    },
+    "privacy": "Geometry, general road class, and public source IDs only; no addresses, residents, names, contributors or private tags.",
+    "scope": "Opening-only geographic context, never routing, mobility, shelter or hazard evidence."
+  }
+}

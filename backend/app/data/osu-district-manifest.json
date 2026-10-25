@@ -1,0 +1,63 @@
+{
+  "source_endpoint": "https://api.openstreetmap.org/api/0.6/map.json?bbox=-83.0183,39.994,-83.0003,40.0045",
+  "retrieved_at_utc": "2026-10-25T02:25:09.309071+00:00",
+  "converted_at_utc": "2026-10-25T03:21:37.909200+00:00",
+  "selection_bbox_west_south_east_north": [
+    -83.0183,
+    39.994,
+    -83.0003,
+    40.0045
+  ],
+  "source_response_sha256": "77e7cdc5366a72ff7e98e502d4e135718658ede6324e03da1d1b38755ee4c914",
+  "source_response_bytes": 10793090,
+  "geojson_sha256": "6b54aa3eedc9d5f1d30d792287dac13390a0ebde6cab8dab90b64252f240d8de",
+  "geojson_bytes": 3725178,
+  "feature_count": 10251,
+  "building_types": {
+    "university": 79,
+    "church": 2,
+    "apartments": 166,
+    "roof;yes": 1,
+    "house": 231,
+    "parking": 10,
+    "sports_centre": 1,
+    "dormitory": 14,
+    "yes": 72,
+    "service": 4,
+    "hospital": 4,
+    "bridge": 1,
+    "residential": 35,
+    "detached": 195,
+    "roof": 14,
+    "commercial": 26,
+    "school": 2,
+    "terrace": 11,
+    "industrial": 1,
+    "retail": 6,
+    "garage": 45,
+    "shed": 3,
+    "garages": 6,
+    "office": 2,
+    "construction": 3,
+    "no": 1
+  },
+  "food_amenities": {
+    "restaurant": 27,
+    "fast_food": 29,
+    "cafe": 24,
+    "ice_cream": 2
+  },
+  "assembly_issues": [
+    "relation/7946209: incomplete members",
+    "relation/13233119: incomplete members",
+    "relation/15807930: incomplete members",
+    "relation/18161267: incomplete members",
+    "relation/18161268: incomplete members",
+    "relation/20104745: incomplete members",
+    "relation/20382617: incomplete members"
+  ],
+  "geometry_policy": "Complete selected ways; multipolygon holes preserved; incomplete relations omitted. Application clips scenery and excludes cut building destinations.",
+  "privacy_filter": "Public map geometry and whitelisted circulation/building tags only; no addresses, contact details, contributor metadata, or occupants.",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "license": "ODbL 1.0"
+}

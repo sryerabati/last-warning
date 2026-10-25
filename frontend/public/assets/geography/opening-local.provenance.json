@@ -1,0 +1,45 @@
+{
+  "schema": "last-warning-opening-local/1",
+  "asset": "opening-local.geojson",
+  "asset_sha256": "3ebc8f91b0fccfc7e0c1d2c3774a2db52c44b766cddbe927eab4b36692bab40f",
+  "asset_bytes": 763629,
+  "gzip_bytes": 137488,
+  "feature_count": 36,
+  "polygon_counts": {
+    "building": 4984,
+    "green": 423,
+    "water": 9
+  },
+  "retrieved_at_utc": "2026-10-25T04:43:59.672075+00:00",
+  "source": {
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:50];(way[\"building\"](39.986,-83.030,40.014,-82.990);way[\"leisure\"~\"^(park|garden|recreation_ground)$\"](39.986,-83.030,40.014,-82.990);way[\"landuse\"~\"^(grass|forest|meadow|recreation_ground)$\"](39.986,-83.030,40.014,-82.990);way[\"natural\"~\"^(wood|water)$\"](39.986,-83.030,40.014,-82.990););out tags geom;",
+    "timestamp_osm_base": "2026-10-25T04:39:59Z",
+    "response_sha256": "1d730ffb2b4e77801b5c737334655b5b37ca2ad1b1ab8331d313bdb556d4f543",
+    "response_bytes": 6953757,
+    "license": "ODbL 1.0",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "attribution": "\u00a9 OpenStreetMap contributors"
+  },
+  "transforms": {
+    "selection_bbox_west_south_east_north": [
+      -83.03,
+      39.986,
+      -82.99,
+      40.014
+    ],
+    "exclude_complete_polygons_inside_bbox": [
+      -83.0183,
+      39.994,
+      -83.0003,
+      40.0045
+    ],
+    "geometry_policy": "Only complete closed ways; multipolygon relations not requested. Whole intersecting ways retained. Overlapping edge footprints retained for renderer clipping. Separate rings grouped into MultiPolygon features by layer/class/name. No invented geometry.",
+    "building_filter": "Exclude no/shed/garage/garages/roof/carport/ruins and structures smaller than65m\u00b2. Approximate planar area is only a visual filter.",
+    "green_min_area_m2": 350,
+    "water_min_area_m2": 100,
+    "simplification": "Initial0.000008\u00b0 then0.000018\u00b0 Douglas\u2013Peucker per closed ring, approximately1\u20132m. Second pass rejected if area changes by15% or more. Coordinates rounded to5decimals.",
+    "privacy": "Only public geometric footprints and general building class; no addresses, owner/occupant names, contributor metadata. Names retained for public green/water features only.",
+    "scope": "Opening-only scenic context; not used for routing, residents, shelters or emergency calculations."
+  }
+}

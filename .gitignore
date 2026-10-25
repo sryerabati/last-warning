@@ -1,0 +1,53 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+# Runtime data only; backend/app/data contains required public map assets.
+/data/
+cache/
+output/
+.playwright-cli/
+*.tsbuildinfo
+*.log
+.DS_Store
+*.pem
+*.key
+*.npz
+*.sqlite*
+
+# Credentials and local model caches
+.aws/
+.ssh/
+.huggingface/
+.codex/
+.agents/
+.netrc
+.pypirc
+credentials
+credentials.json
+*.p12
+*.pfx
+*.jks
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Private deployment bundle and personal production notes
+/sites/
+/scripts/deploy-sites-backend.py
+/campaigns/
+
+# Generated video deliveries
+*.mp4
+*.mov
+*.webm
+*.zip
+*.tar.gz
+

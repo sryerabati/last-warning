@@ -1,0 +1,23 @@
+/* Native semantics with the same square-pixel construction as the world. */
+.pixel-frame{border-radius:0}
+input[type=range]{
+  --rail:#9aa483;--rail-edge:#667959;--thumb:#dfba66;--thumb-edge:#775d32;
+  -webkit-appearance:none;appearance:none;height:32px;background:transparent;border:0;border-radius:0;padding:0;
+}
+.timeline-dock input[type=range],.town-transport-controls input[type=range]{--rail:#536c51;--rail-edge:#8b9c70;--thumb-edge:#e9d397}
+input[type=range]::-webkit-slider-runnable-track{height:8px;background:var(--rail);border:2px solid var(--rail-edge);border-radius:0}
+input[type=range]::-moz-range-track{height:4px;background:var(--rail);border:2px solid var(--rail-edge);border-radius:0}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:20px;margin-top:-8px;background:var(--thumb);border:2px solid var(--thumb-edge);border-radius:0;box-shadow:inset 2px 2px 0 #fff0bd,2px 2px 0 #203a294d}
+input[type=range]::-moz-range-thumb{width:10px;height:16px;background:var(--thumb);border:2px solid var(--thumb-edge);border-radius:0;box-shadow:inset 2px 2px 0 #fff0bd,2px 2px 0 #203a294d}
+input[type=range]:disabled{opacity:.4;cursor:default}
+input[type=checkbox]{-webkit-appearance:none;appearance:none;width:18px;height:18px;border:2px solid #697c59;border-radius:0;background:#f2efd9;display:inline-grid;place-content:center}
+input[type=checkbox]:checked{background:#3f6249;border-color:#3f6249}
+input[type=checkbox]:checked::before{content:'';width:10px;height:10px;background:#f2e5b7;clip-path:polygon(0 40%,20% 40%,20% 60%,40% 60%,40% 40%,60% 40%,60% 20%,80% 20%,80% 0,100% 0,100% 40%,80% 40%,80% 60%,60% 60%,60% 80%,40% 80%,40% 100%,20% 100%,20% 80%,0 80%)}
+input[type=checkbox]:disabled{opacity:.4;cursor:default}
+.recharts-tooltip-wrapper{outline:0}
+.recharts-cartesian-grid line,.recharts-reference-line line{shape-rendering:crispEdges}
+.saved-run-outcomes{display:flex;gap:14px;flex-shrink:0}
+.saved-run-exposure{color:#a16143}
+.saved-run-outcomes small{white-space:nowrap;font-size:9px}
+@media(max-width:650px){.saved-run-outcomes{gap:9px}.saved-run-outcomes .saved-run-number{font-size:21px}}
+@media(forced-colors:active){input[type=range],input[type=checkbox]{appearance:auto;-webkit-appearance:auto}input[type=checkbox]:checked::before{display:none}}

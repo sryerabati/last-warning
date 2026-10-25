@@ -1,0 +1,28 @@
+{
+  "name": "last-warning-motion",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "check": "tsc --noEmit",
+    "stills": "node scripts/render.mjs --stills",
+    "render": "node scripts/render.mjs",
+    "extras": "node scripts/derive.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.538",
+    "@remotion/cli": "4.0.538",
+    "@remotion/fonts": "4.0.538",
+    "@remotion/renderer": "4.0.538",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "typescript": "5.9.3"
+  }
+}

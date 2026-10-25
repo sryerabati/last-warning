@@ -1,0 +1,42 @@
+{
+  "feature_ids_unique": true,
+  "coordinate_errors": [],
+  "unclosed_or_short_polygon_rings": [],
+  "validation_scope": "Basic coordinate/closure checks only; no robust self-intersection, overlap, access, or routability validation performed.",
+  "linear_highway_features": 1240,
+  "linear_highway_node_count": 4070,
+  "linear_highway_segment_occurrences": 4709,
+  "shared_node_component_count_ignoring_access": 20,
+  "largest_shared_node_component_sizes": [
+    3990,
+    11,
+    7,
+    6,
+    6,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mapped_entrance_point_count": 205,
+  "entrance_points_sharing_node_id_with_linear_highway": 191,
+  "named_anchor_ids": {
+    "Mirror Lake": "way/30172049",
+    "William Oxley Thompson Memorial Library": "way/30172308",
+    "Ohio Union": "way/154204619",
+    "Pomerene Hall": "way/154204627",
+    "The Oval": "way/552383147"
+  },
+  "projection_for_visualization": {
+    "method": "Local equirectangular tangent approximation using WGS84 prime-vertical and meridional radii at origin; north up; scale approximate",
+    "origin_lon_lat": [
+      -83.0124,
+      39.9995
+    ],
+    "x_metres_per_longitude_degree": 85394.47979081002,
+    "y_metres_per_latitude_degree": 111034.62296812887,
+    "extent_width_m": 922.2603817398123,
+    "extent_height_m": 666.2077378087985
+  }
+}
